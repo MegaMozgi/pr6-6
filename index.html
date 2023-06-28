@@ -50,7 +50,7 @@
 //-----------
     if (document.mailer.Subject.value != "") { // функція перевірки поля Subject
     } else {
-      alert("\nОбласть \"Тема\" в формі. \n\ Будь ласка, введіть, введите те-му."); //виводить повідомлення, якщо поле Subject не заповнено
+      alert("\nОбласть \"Тема\" в формі. \n\ Будь ласка, введіть, введите тему."); //виводить повідомлення, якщо поле Subject не заповнено
       document.mailer.Subject.focus(); // вертає курсор на поле Subject
       return false;
     }
@@ -65,7 +65,7 @@
 //-----------
   }
   function msg() { // функція відправки
-    document.mailer.action = "mailto:molodoychelovek311@gmail.com"
+    document.mailer.action = "mailto:kravcukt5002@gmail.com"
     mailtoandSubject = (('?Subject=' + document.mailer.Subject.value) + '&Body=' + document.mailer.Message.value);
   }
 </SCRIPT>
